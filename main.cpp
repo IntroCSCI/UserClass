@@ -10,9 +10,8 @@ int main()
 
     account.setHandle("CSCI111");
     cout<< account.getHandle() << endl;
-    account.setHandle("");
+    account.setHandle("CSCI-111");
     cout<< "New handle is: "<< account.getHandle() <<endl;
-    account.handle = "Different Handle";
 
 
     return 0;
